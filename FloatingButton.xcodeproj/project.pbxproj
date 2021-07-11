@@ -13,6 +13,8 @@
 		FAFDFE0F269ABC680096F624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFDFE0D269ABC680096F624 /* Main.storyboard */; };
 		FAFDFE11269ABC690096F624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFDFE10269ABC690096F624 /* Assets.xcassets */; };
 		FAFDFE14269ABC690096F624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFDFE12269ABC690096F624 /* LaunchScreen.storyboard */; };
+		FAFDFE1E269ABDA30096F624 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDFE1C269ABDA30096F624 /* ActionButton.swift */; };
+		FAFDFE1F269ABDA30096F624 /* ActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDFE1D269ABDA30096F624 /* ActionButtonItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FAFDFE10269ABC690096F624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAFDFE13269ABC690096F624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAFDFE15269ABC690096F624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFDFE1C269ABDA30096F624 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		FAFDFE1D269ABDA30096F624 /* ActionButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FAFDFE10269ABC690096F624 /* Assets.xcassets */,
 				FAFDFE12269ABC690096F624 /* LaunchScreen.storyboard */,
 				FAFDFE15269ABC690096F624 /* Info.plist */,
+				FAFDFE1C269ABDA30096F624 /* ActionButton.swift */,
+				FAFDFE1D269ABDA30096F624 /* ActionButtonItem.swift */,
 			);
 			path = FloatingButton;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFDFE0C269ABC680096F624 /* ViewController.swift in Sources */,
+				FAFDFE1F269ABDA30096F624 /* ActionButtonItem.swift in Sources */,
 				FAFDFE08269ABC680096F624 /* AppDelegate.swift in Sources */,
 				FAFDFE0A269ABC680096F624 /* SceneDelegate.swift in Sources */,
+				FAFDFE1E269ABDA30096F624 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
